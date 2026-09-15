@@ -1,4 +1,6 @@
 # Star-Ship-USA
+<img width="1024" height="559" alt="image_01e4aa88-fee7-46d4-9499-978bac0a6e83" src="https://github.com/user-attachments/assets/c501fbf2-b907-45e0-8930-83b55752323f" />
+
 A space ship designed to go 2 light years every 5 seconds part from part with solar energy 
 Module Breakdown
 ​SolarBussardCollector: Handles the math for gathering ambient ions, solar photons, and space radiation without requiring liquid fuel tanks.
