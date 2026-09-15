@@ -581,3 +581,4 @@ m_6Conical Nose: d_6 = 4.92\text{ ft } (1.50\text{ m})5\%
 The total operational weight (W_{\text{op}}) under standard Earth gravity (g = 9.80665\text{ m/s}^2) is expressed as: 
 
 Wop=g•6i=1€=I/mi=(9.80665 m/s²)×28,000kg=274,586.2N(61,728lbs-force)
+<img width="1024" height="559" alt="image_5edb1f13-95a9-4254-ad5d-139b8c21efab" src="https://github.com/user-attachments/assets/9a3037f4-9573-47fb-b69b-842a171e5978" />
