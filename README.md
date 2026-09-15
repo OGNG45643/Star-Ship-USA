@@ -53,3 +53,63 @@ Impulse RingsMain VectorSmooth, gasless propulsion up to 0.15c before engaging w
 ​Drive System & Propulsion
 ​Dual Magnetic Ring Thrusters: The main rear impulse thrusters that use Lorentz force to drive the ship at normal speeds without burning fuel.
 ​FTL Warp Coils: Heavy superconducting rings wrapped along the main body that bend spacetime to jump 2 light years in 5 seconds.
+
+ROUND BURST CONTROL 
+Input:
+
+Here is a clean, simple C++ code snippet that manages charging up energy from the solar intake and triggering a burst (reburst) to control the ship's speed and systems.
+
+#include <iostream>
+#include <algorithm>
+
+class ShipPowerController {
+private:
+    double currentPowerGW;
+    const double maxCapacityGW;
+    const double burstCostGW;
+
+public:
+    ShipPowerController() 
+        : currentPowerGW(0.0), maxCapacityGW(1000.0), burstCostGW(250.0) {}
+
+    // Charge up power from solar collectors
+    void Charge(double amountGW) {
+        currentPowerGW = std::min(currentPowerGW + amountGW, maxCapacityGW);
+        std::cout << "[CHARGING] + " << amountGW << " GW | Current Power: " 
+                  << currentPowerGW << " / " << maxCapacityGW << " GW\n";
+    }
+
+    // Trigger a power reburst for speed/control maneuver
+    bool Reburst() {
+        if (currentPowerGW < burstCostGW) {
+            std::cout << "[REBURST FAILED] Insufficient power! Need " 
+                      << burstCostGW << " GW, but only have " << currentPowerGW << " GW.\n";
+            return false;
+        }
+
+        currentPowerGW -= burstCostGW;
+        std::cout << "[POWER REBURST!] Released " << burstCostGW 
+                  << " GW! Speed boost & control impulse engaged.\n"
+                  << "                 Remaining Power: " << currentPowerGW << " GW\n";
+        return true;
+    }
+
+    double GetPower() const { return currentPowerGW; }
+};
+
+int main() {
+    ShipPowerController shipControl;
+
+    // Simulate charging and triggering bursts
+    shipControl.Charge(150.0);
+    shipControl.Reburst(); // Fails: not enough charge
+
+    shipControl.Charge(200.0); // Total now 350 GW
+    shipControl.Reburst(); // Success: uses 250 GW
+
+    shipControl.Charge(900.0); // Charges to max 1000 GW
+    shipControl.Reburst(); // Success
+    shipControl.Reburst(); // Success again
+
+    return 0;
+}
