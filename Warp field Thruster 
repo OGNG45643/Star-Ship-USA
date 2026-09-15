@@ -117,3 +117,8 @@ int main() {
 
     return 0;
 }
+
+Module Breakdown
+​SolarBussardCollector: Handles the math for gathering ambient ions, solar photons, and space radiation without requiring liquid fuel tanks.
+​MagneticCoImpulseThruster: Calculates the magnetic field flux in Tesla necessary to squeeze spacetime around the ship.
+​ExecuteJumpSequence: Coordinates power consumption with warp metrics to safely execute the 12.6\text{M } c speed threshold without melting the internal superconducting rings.
