@@ -1,5 +1,13 @@
 # Star-Ship-USA
 
+<p align="center">
+  <img width="1024" height="559" alt="Star-Ship-USA concept render" src="https://github.com/user-attachments/assets/c501fbf2-b907-45e0-8930-83b55752323f" />
+</p>
+
+<p align="center">
+  <strong>Published Concept Release v2.0</strong>
+</p>
+
 A speculative space-ship concept built around solar harvesting, magnetic propulsion, and a high-speed jump-drive idea. This project is presented as a creative engineering concept package and design showcase rather than a certified aerospace system.
 
 ## Intro
@@ -12,9 +20,17 @@ The original concept statement:
 
 This repository is meant to explore that idea in a presentation-ready way: it combines a ship layout, propulsion concepts, system scripts, energy logic, and visual documentation into a single speculative design.
 
-![Star-Ship-USA concept render](https://github.com/user-attachments/assets/c501fbf2-b907-45e0-8930-83b55752323f)
+## Published status
 
----
+Current status: concept showcase / public demo package / speculative design release
+
+This release is meant to frame the project as a polished presentation package:
+
+- concept-first design language
+- mission and propulsion overview
+- engineering-style breakdowns
+- simulation and code examples
+- presentation-ready visual flow
 
 ## Project Vision
 
