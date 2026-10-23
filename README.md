@@ -370,6 +370,37 @@ The project is built around a dramatic and imaginative leap: a ship that can gat
 
 ---
 
+## Roadmap
+
+### Phase 1: Concept foundation
+- define the ship's core mission profile and design intent
+- formalize the main propulsion and energy concept
+- build a clear visual identity for the vessel
+
+### Phase 2: Systems architecture
+- document the flight-control concept and power system layout
+- expand the subsystem breakdown for propulsion, collection, and shielding
+- add clearer engineering notes for each major component
+
+### Phase 3: Simulation & behavior modeling
+- improve the landing and maneuver simulations
+- create more structured control logic for the power burst system
+- add sample flight scenarios and operational assumptions
+
+### Phase 4: Prototype expansion
+- organize the repository into sections for design, code, and visuals
+- expand code examples into more realistic simulation modules
+- refine the public-facing concept deck and demo materials
+
+### Phase 5: Presentation and showcase
+- polish the project for public presentation and demo use
+- create a narrative that frames the design as a bold speculative concept
+- continue developing the GitHub project as a presentation-ready concept package
+
+This roadmap is meant to keep the project moving as a concept showcase while staying transparent that the design is imaginative and speculative rather than flight-certified.
+
+---
+
 ## Final Visuals
 
 The repository includes a progression of concept visuals to help present the project as a real-world-inspired design pitch.
